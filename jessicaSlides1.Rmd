@@ -1,0 +1,23 @@
+---
+title: "Primeiros Slides"
+author: "Jéssica Félix"
+date: "4/20/2019"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## My New Slide
+
+*italicized text*
+**bold text**
+
+```{r, echo=FALSE, fig.align='center', fig.cap= 'My awesome figure'}
+plot(mtcars$wt, mtcars$mpg,xlab = "weight", ylab = "MPG")
+```
+
+***
+A slide without a tittle
+
